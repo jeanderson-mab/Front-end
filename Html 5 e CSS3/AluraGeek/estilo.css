@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px, 0, 32px, 0;
+
+}
+.direita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 601px;
+    height: 50px;
+    padding: 32px;
+    
+}
+.barra-de-pesquisa{
+    width: 393px;
+    height: 40px;
+    top: 5px;
+    left: 208px;
+    border-radius: 20px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    background-color: #F5F5F5;
+
+}
+
+
+
+#login{
+    width: 42px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #2A7AE4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+#txtBusca{
+    height: 40px;
+width: 393px;
+left: 208px;
+top: 5px;
+border-radius: 20px;
+padding: 8px 16px 8px 16px;
+
+}

@@ -1,0 +1,86 @@
+.pagina__inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em 1em;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.pagina__texto-titulo{
+    font: var(--font-principal);
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    color: var(--branco);
+    margin: 1em 0;
+}
+
+.pagina__texto-corpo{
+    font-family: var(--font-principal);
+    font-size: 20px;
+    text-align: center;
+    line-height:40px;
+    color: var(--branco);
+    font-weight: 500;
+    padding: 0.5em;
+}
+
+.pagina__inicial-buton{
+    
+    font-family: var(--font-principal);
+    font-size: 20px;
+    color: var(--branco);
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 8px 25px;
+    box-shadow: 4px 4px 0px #444444;
+    background: var(--azul);
+    background: url('/img/logo-comprar-ingresso.svg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: right;
+    
+}
+
+.pagin__inicial-line{
+    font-size: 48px;
+    font-family: var(--fonte-banner);
+    text-align: center;
+    font-weight: 400;
+    color: var(--branco);
+    margin: 1.5em 0.5em;
+
+}
+
+.pagina__inicial-sabado,
+.pagina__inicial-domingo{
+    background: var(--verde);
+    padding: 20px ;
+
+}
+.pagina__inicial-sabado-texto,
+.pagina__inicial-domingo-texto{
+    font-size: 32px;
+    font-family: var(--fonte-banner);
+    font-weight: 400;
+    color: var(--branco);
+    text-transform: uppercase;
+}
+.pagina__inicial-sabado-textos,
+.pagina__inicial-domingo-textos{
+    display: flex;
+    flex-direction: column;
+}
+.pre-footer{
+    width: 360px;
+    height: 340px;
+}
+
+
+
+
+
+

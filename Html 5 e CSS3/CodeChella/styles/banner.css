@@ -2,5 +2,31 @@
     height: 270px;
     width: auto;
     background-image: url("/img/Banner.svg");
-   
+    
 }
+
+.banner__texto{
+    
+    width: 360px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(215, 0, 235);
+  
+    
+}
+.banner__titulo, 
+.link__banner{
+    font-family: var(--fonte-banner);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: black;
+    color: var(--branco);
+}
+.link__banner{
+    
+}
+

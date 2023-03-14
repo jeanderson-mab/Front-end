@@ -1,0 +1,73 @@
+
+.titulo__formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    
+}
+
+.titulo, .nome{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: var(--fonte-banner);
+    color: var(--cinza);
+    margin-bottom: 0.3em;
+    
+
+}
+.titulo{
+    text-align: center;
+    margin: 1em;
+}
+
+.input-name, 
+.input-email,
+.input-idade
+ {
+    line-height: 3em;
+    margin-bottom: 2em;
+
+}
+.input-tipos{
+    height: 3.5em;
+    margin-bottom: 1em;
+}
+
+.butao{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin:0 5em;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: var(--azul);
+    
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px;
+    cursor: pointer;
+
+}
+
+.btn-avancar{
+    color: var(--branco);
+    text-decoration: none;
+}
+/*
+.btn-avancar{
+    margin: 1em;
+    padding: 3em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    background-image: url('/paginas/ingressos/img/seta.svg');
+    color: var(--branco);
+    background-color: var(--azul);
+}
+
+

@@ -1,0 +1,41 @@
+
+.banner{
+    height: 270px;
+    width: auto;
+    /*background-image: url("/img/Banner.svg"); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__texto{
+    font-family: var(--fonte-banner);
+    font-size: 32px;
+    color: var(--branco);
+
+}
+
+.banner__titulo, 
+.link__banner{
+    font-family: var(--fonte-banner);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: black;
+    color: var(--branco);
+}
+
+
+
+
+@media (min-width: 768px){
+    .banner__texto{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

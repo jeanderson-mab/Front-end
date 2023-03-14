@@ -1,0 +1,57 @@
+.pagina__inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em 1em;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.pagina__texto-titulo{
+    font: var(--font-principal);
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    color: var(--branco);
+    margin-top: 1em;
+}
+
+.pagina__texto-corpo{
+    font-family: var(--font-principal);
+    font-size: 20px;
+    text-align: center;
+    line-height:40px;
+    color: var(--branco);
+    font-weight: 500;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+
+.pre-footer{
+    width: 360px;
+    height: 340px;
+}
+
+
+
+
+@media (min-width: 768px){
+    .imagem__incial{
+        width: 609px;
+        height: 381px;
+        background-color: aqua;
+        background-size: cover;
+        background-position: center;
+
+    }
+    
+}
+
+
+
+
+
+

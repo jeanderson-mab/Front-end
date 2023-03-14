@@ -1,0 +1,32 @@
+@import url('/styles/header.css');
+@import url('/styles/footer.css');
+
+
+@import url('/paginas/corpo-outras-paginas.css');
+
+/* @import url('/paginas/informacoes/banner-info.css'); */
+/* @import url('/paginas/informacoes/corpo-pagina-info.css'); */
+/* @import url('/paginas/gerais/banner-gerais.css'); */
+/* @import url('/paginas/gerais/drop-gerais.css'); */
+/* @import url('/paginas/ingressos/banner-ingressos.css'); */
+/* @import url('paginas/ingressos/formulario.css'); */
+
+
+
+:root{
+    --azul: #4650BD;
+    --verde-degrade: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --font-principal: "Raleway";
+    --fonte-banner: "Calistoga";
+    --cor-de-fundo: #EBECEE;
+    --branco: #fff;
+    --verde: #008364;
+    --azul-claro: #C8DEEF;
+    --cinza: #444444;
+}
+
+body{
+    font-family: var(--font-principal);
+    font-weight: 300;
+    background: var(--verde-degrade);
+}

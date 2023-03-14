@@ -1,7 +1,9 @@
 .rodape{
+    margin: 2.5em 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--azul);
 
 }
 .footer__topo-texto,
@@ -14,7 +16,6 @@
 
 }
 .footer__baixo{
-    line-height: 1.5em;
-
+    line-height: 2em;
     font-size: 20px;
 }

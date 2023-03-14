@@ -8,6 +8,14 @@
     align-items: center;
     
 }
+.imagem__incial{
+    background: url('/img/Homepage1.svg');
+    width: 310px;
+    height: 381px;
+    text-align: center;
+    background-repeat: no-repeat;
+    
+}
 
 .pagina__texto-titulo{
     font: var(--font-principal);
@@ -80,7 +88,14 @@
 }
 
 
+@media (min-width: 768px){
+    .imagem__incial{
+        background: url('/img/homepage-768.svg');
+        width: 609px;
+        height: 381px;
+    }
 
 
+}
 
 

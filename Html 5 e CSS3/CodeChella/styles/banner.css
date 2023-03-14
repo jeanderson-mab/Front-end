@@ -1,12 +1,14 @@
+
 .banner{
     height: 270px;
     width: auto;
-    background-image: url("/img/Banner.svg");
-    
+    background-image: url("/img/banner-sem-texto.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .banner__texto{
-    
     width: 360px;
     height: 270px;
     display: flex;
@@ -28,5 +30,13 @@
 }
 .link__banner{
     
+}
+
+@media (min-width: 768px){
+    .banner{
+        background-image: url("/img/banner-sem-texto.jpg");
+        background-size: cover;
+        background-position:center;
+    }
 }
 

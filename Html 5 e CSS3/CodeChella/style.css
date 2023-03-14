@@ -1,9 +1,11 @@
-@import url("/styles/header.css");
-@import url("/styles/banner.css");
-@import url('/styles/corpo-pagina.css');
-@import url('/styles/corpo-sabado.css');
-@import url('/styles/corpo-domingo.css');
-@import url('/styles/footer.css');
+/* @import url("/styles/header.css");  */
+/* @import url("/styles/banner.css"); */ 
+/* @import url('/styles/corpo-pagina.css');*/
+/* @import url('/styles/corpo-sabado.css'); */ 
+/* @import url('/styles/corpo-domingo.css'); */
+/* @import url('/styles/footer.css'); */
+
+
 
 :root{
     --azul: #4650BD;
@@ -13,6 +15,7 @@
     --cor-de-fundo: #EBECEE;
     --branco: #fff;
     --verde: #008364;
+    
 }
 
 body{

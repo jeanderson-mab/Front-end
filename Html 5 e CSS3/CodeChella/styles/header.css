@@ -4,9 +4,7 @@
     width: 20px;
     height: 22px;
     background-image: url("/img/menu.svg");
-    background-repeat: no-repeat;
-    
-    
+    background-repeat: no-repeat; 
 }
 .cabecalho{
     background-color: var(--azul);
@@ -21,9 +19,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    
     margin: 0 2em;
-    
-    
 }
 .lista-menu{
     display: none;
@@ -35,13 +32,11 @@
     padding: 0.5em;
 }
 
-
 .container__imagem{
     padding: 1em 0;
 }
 .container__botao{
     display: none;
-
 }
 
 .container__botao:checked~.lista-menu{
@@ -50,9 +45,47 @@
 .lista-menu__item{
     padding: 0.5em;
     text-align: center;
+    line-height: 2em;
+    
 }
+
 .lista-menu__link{
     color: var(--branco);
     text-decoration: none;
     font-weight: 700;
+}
+
+
+
+
+@media (min-width: 768px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .lista-menu{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+    }
+    
+    .menu{
+        display: none;
+
+    }
+    
+    .cabecalho__menu-hamburguer{
+        background-size: cover;
+        display: none;
+    }
+
+    .imagem__inciall{
+        background: url('/img/banner-768.svg'); 
+        background-repeat: no-repeat;
+    }
+
 }

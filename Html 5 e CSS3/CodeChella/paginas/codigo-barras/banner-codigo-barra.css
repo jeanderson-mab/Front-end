@@ -1,0 +1,31 @@
+
+.banner-qrcode{
+    height: 270px;
+    width: 360px;
+    background-image: url("/paginas/codigo-barras/img/banner-barra.svg");
+    background-size: top;
+
+}
+/*
+.bbanner__texto-qr{
+    width: 360px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(215, 0, 235);
+  
+    
+}
+.banner__titulo-qr, 
+.link__banner{
+    font-family: var(--fonte-banner);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: black;
+    color: var(--branco);
+}
+*/
+

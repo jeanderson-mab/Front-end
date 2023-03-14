@@ -1,0 +1,51 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../experiencia/img/banner-experiencia.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 384px;
+    opacity: 40%;
+    
+}
+
+.banner__texto{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.banner__titulo 
+{
+    font-family: var(--fonte-banner);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: black;
+    color: var(--branco);
+    
+}
+
+
+@media (min-width: 768px){
+    .banner
+    {
+        background-image: url('../experiencia/img/banner-sem-texto768.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: aquamarine;
+    }
+
+    .banner__titulo
+{
+    font-size: 64px;
+    color: var(--branco);
+
+}
+  
+}

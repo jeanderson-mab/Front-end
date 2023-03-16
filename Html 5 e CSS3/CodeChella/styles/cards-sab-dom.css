@@ -1,0 +1,31 @@
+
+.sabado-titulo,
+.domingo-titulo{
+    color: var(--branco);
+    font-family: var(--font-principal);
+    font-weight: 800;
+    font-size: 48px;
+    padding: 1em 0;
+}
+
+
+@media (min-width: 768px){  
+    .pagina__inicial-sabado-textos,
+    .pagina__inicial-domingo-textos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 768px;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .pagina__inicial-domingo-textos{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        width: 768px;
+        /*align-items: center;
+        margin-bottom: 2em;*/
+
+    }
+
+}

@@ -1,17 +1,5 @@
-@import url('/styles/header.css');
+@import url("/styles/header.css"); 
 @import url('/styles/footer.css');
-
-
-@import url('/paginas/corpo-outras-paginas.css');
-
-/* @import url('/paginas/informacoes/banner-info.css'); */
-/* @import url('/paginas/informacoes/corpo-pagina-info.css'); */
-/* @import url('/paginas/gerais/banner-gerais.css'); */
-/* @import url('/paginas/gerais/drop-gerais.css'); */
-/* @import url('/paginas/ingressos/banner-ingressos.css'); */
-/* @import url('paginas/ingressos/formulario.css'); */
-
-
 
 :root{
     --azul: #4650BD;

@@ -1,0 +1,154 @@
+ .imagem__inicial{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+} 
+.imagem__inicial img{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.mapa__legenda{
+    width: 100%;
+    margin: 1em;
+}
+.legenda{
+    padding: 0 1.5em;
+    text-align: left;
+
+}
+.titulo__legenda{
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--font-principal);
+    margin-bottom: 2em;
+} 
+
+ .subtitle__legenda{
+    display: flex;
+    margin: 1.5em 0;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--branco);
+    font-family: var(--font-principal);
+    
+} 
+ .retangulo__legenda{
+    margin-right: 1em;
+} 
+
+
+ .pagina__inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em 1em;
+    text-align: center;
+    align-items: center;
+ 
+} 
+
+.pagina__texto-titulo,
+.pagina__texto-titulo-sus{
+    font: var(--font-principal);
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    color: var(--branco);
+    margin-top: 1em;
+} 
+
+.pagina__texto-corpo{
+    font-family: var(--font-principal);
+    font-size: 20px;
+    text-align: center;
+    line-height:40px;
+    color: var(--branco);
+    font-weight: 500;
+    padding: 0.5em;
+    margin-bottom: 2em;
+} 
+
+
+ .detalhes__setores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+.card-setores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3em;
+} 
+.pagina__texto-titulo{
+    margin-bottom: 1em;
+} 
+
+
+
+@media (min-width: 768px){
+    .mapa__legenda{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+@media (min-width: 1440px){
+
+    .imagem__inicial{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    } 
+    .imagem__inicial img{
+        margin: auto;
+        display: block;
+        width: 100%;
+        
+    }
+
+    .pagina__inicial{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .pagina__texto-titulo{
+        font-family: var(--font-principal);
+        font-size: 40px;
+        font-weight: 700;
+        color: var(--branco);
+        text-align: center;
+        margin-top: 1em;
+    }
+    .detalhes__setores{
+
+        display: flex;      
+        flex-direction: row;
+        align-items: center;
+  
+    }
+  
+    .pagina__initial-texto{
+    
+    }
+    .card-setores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .carde-setor-premium{
+        margin-top: 10em;
+    }
+}
+
+
+
+
+
+

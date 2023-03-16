@@ -1,0 +1,140 @@
+ .pagina__inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em 1em;
+    text-align: center;
+    align-items: center;
+    
+} 
+
+.pagina__texto-titulo,
+.pagina__texto-titulo-sus{
+    font: var(--font-principal);
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    color: var(--branco);
+    margin-top: 1em;
+}
+
+.pagina__texto-corpo,
+.pagina__texto-corpo-sus{
+    font-family: var(--font-principal);
+    font-size: 20px;
+    text-align: center;
+    line-height:40px;
+    color: var(--branco);
+    font-weight: 500;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+
+.pre-footer{
+    width: 360px;
+    height: 340px;
+    background-color: black;
+}
+
+
+                @media (min-width: 768px){
+
+                .container-acessibilidade,
+                .container-sustentabilidade,
+                .container-atracoes{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                }
+                /*TITULO E TEXTO ACESSIBILIDADE */
+                .pagina__initial-texto{
+                    padding: 0 3em;
+
+                }
+
+                /* .imagem__incial{
+                    width: 600px;
+                    height: 340px;
+                    background-size: cover;
+                    background-position: center;
+                    
+
+                } */
+
+                .pagina__texto-titulo,
+                .pagina__texto-titulo-sus{
+                font: var(--font-principal);
+                font-weight: 700;
+                text-align: center;
+                font-size: 32px;
+                color: var(--branco);
+                margin-top: 1em;
+                }
+    
+}
+
+
+@media (min-width: 1440px){
+    .pagina__inicial{
+        margin: 3em 2em;
+       
+    }
+    .container-corpo{
+        padding: 2em 0;
+    }
+    
+    .container-acessibilidade{
+        display: flex;
+        flex-direction: row;
+        padding: 0 3em;
+        margin-bottom: 4em;
+      
+    }
+
+    .container-sustentabilidade{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 3em;
+        margin-bottom: 4em;
+    
+    }
+
+    .container-atracoes{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 4em;
+ 
+        padding: 0 3em;
+    }
+    .pagina__initial-texto{
+        width: 60%;
+        height: 40%;
+        padding: 0;
+    
+
+    }
+    .pagina__texto-titulo,
+    .pagina__texto-corpo{
+        text-align: left;
+    }
+    .pagina__texto-titulo-sus,
+    .pagina__texto-corpo-sus{
+        text-align: right;
+        
+
+    }
+    .pagina__texto-titulo{
+        
+    }
+    .imagem__inicial{
+        
+        
+    }
+
+}
+
+
+

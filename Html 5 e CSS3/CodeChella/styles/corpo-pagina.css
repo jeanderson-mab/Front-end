@@ -5,17 +5,19 @@
     align-items: center;
     padding: 1.2em 1em;
     text-align: center;
-    align-items: center;
+    align-items: center; 
     
 }
-.imagem__incial{
-    background: url('/img/Homepage1.svg');
-    width: 310px;
-    height: 381px;
-    text-align: center;
-    background-repeat: no-repeat;
-    
-}
+.primeira-img{
+    justify-content: center;
+    align-self:center;
+    background-size: cover;
+    width: 300px;
+    height: 368px;
+    margin: auto;
+    background-image: url('/img/Homepage1.svg');
+
+} 
 
 .pagina__texto-titulo{
     font: var(--font-principal);
@@ -24,6 +26,7 @@
     font-size: 32px;
     color: var(--branco);
     margin: 1em 0;
+    
 }
 
 .pagina__texto-corpo{
@@ -34,6 +37,7 @@
     color: var(--branco);
     font-weight: 500;
     padding: 0.5em;
+   
 }
 
 .pagina__inicial-buton{
@@ -71,31 +75,119 @@
 }
 .pagina__inicial-sabado-texto,
 .pagina__inicial-domingo-texto{
+  
     font-size: 32px;
     font-family: var(--fonte-banner);
     font-weight: 400;
     color: var(--branco);
     text-transform: uppercase;
 }
+
+/* .pagina__inicial-sabado:before{
+    position: absolute;
+    content:"";
+    width:100px;
+    height:4px;
+    background:#ff0000;
+    align-items: center;
+    text-align: right
+    ;
+
+}
+.pagina__inicial-sabado:after{
+    position: absolute;
+    content:"";
+    width:100px;
+    height:4px;
+    background:#ff0000;
+    align-items: center;
+    text-align: left
+
+} */
+
+
+
+
+
+
+
 .pagina__inicial-sabado-textos,
 .pagina__inicial-domingo-textos{
-    display: flex;
-    flex-direction: column;
+    line-height: 4.5em;
 }
 .pre-footer{
-    width: 360px;
-    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 338px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 768px){
-    .imagem__incial{
-        background: url('/img/homepage-768.svg');
+    .primeira-img{
         width: 609px;
         height: 381px;
+        background: url('/img/homepage-768.svg');
+        
     }
 
+    /* 12 e 12 de Marco */
+    .pagina__texto-titulo{
+        text-align: center;
+        padding: 0 5em;
+        
+    }
+    .pre-footer{
+        height: 378px;
+        width: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    
+   
+   
+}
 
+@media (min-width: 1440px){
+    .pagina_inicial-container{
+        display: flex;
+        margin: 2em 5em;
+        gap: 20px;
+
+        
+    }
+    .pagina__initial-texto{
+        margin: 0.5em;
+        width: 50%;
+        height: 381px;
+        
+    }
+    .pagina__texto-titulo{
+        
+        text-align: center;
+        padding: 0 3em;
+        
+    }
+    .pagina__texto-corpo{
+        padding: 1em 3em;
+    }
+
+    
 }
 
 

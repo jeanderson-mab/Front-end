@@ -5,47 +5,60 @@
     height: 22px;
     background-image: url("/img/menu.svg");
     background-repeat: no-repeat; 
+    
 }
 .cabecalho{
     background-color: var(--azul);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: relative;
-    
+    padding: 1em 0;
+
 }
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    
+    width: 80%;
+    justify-content: space-between; 
     margin: 0 2em;
+
 }
+
+.container__botao{
+    display: none;
+}
+
+.container__imagem{
+    padding: 1em 0;
+    /* display: flex;
+    align-items: center; */
+    padding: 10px;
+
+}
+
+
 .lista-menu{
     display: none;
     position: absolute;
     top: 100%;
     right: 0px;
-    width: 45vw;
+    width: 60vw;
     background-color:var(--azul);
     padding: 0.5em;
-}
+    
 
-.container__imagem{
-    padding: 1em 0;
-}
-.container__botao{
-    display: none;
 }
 
 .container__botao:checked~.lista-menu{
     display: block;
 }
+
 .lista-menu__item{
     padding: 0.5em;
     text-align: center;
     line-height: 2em;
+    
     
 }
 
@@ -56,13 +69,25 @@
 }
 
 
+.header__menu-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
 
+
+
+
+/*-------------- VERSÃO 768PX------------*/
 
 @media (min-width: 768px){
+
 
     .container{
         display: flex;
         flex-direction: column;
+        
         
     }
 
@@ -71,6 +96,7 @@
         justify-content: space-between;
         position: relative;
         width: 100%;
+   
     }
     
     .menu{
@@ -83,9 +109,32 @@
         display: none;
     }
 
+
+
     .imagem__inciall{
         background: url('/img/banner-768.svg'); 
         background-repeat: no-repeat;
     }
+
+}
+
+
+
+@media (min-width: 1440px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+
+        padding: 0 2em;
+        gap: 8em;
+        
+        
+    }
+    .lista-menu{
+        justify-content: space-around;
+
+    } 
 
 }

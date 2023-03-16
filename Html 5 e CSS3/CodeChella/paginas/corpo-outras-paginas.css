@@ -9,7 +9,8 @@
     
 }
 
-.pagina__texto-titulo{
+.pagina__texto-titulo,
+.pagina__texto-titulo-sus{
     font: var(--font-principal);
     font-weight: 700;
     text-align: center;
@@ -18,7 +19,8 @@
     margin-top: 1em;
 }
 
-.pagina__texto-corpo{
+.pagina__texto-corpo,
+.pagina__texto-corpo-sus{
     font-family: var(--font-principal);
     font-size: 20px;
     text-align: center;
@@ -37,16 +39,29 @@
 
 
 
-
 @media (min-width: 768px){
+    .container-acessibilidade{
+        background-color: bisque;
+    }
+
     .imagem__incial{
-        width: 609px;
-        height: 381px;
-        background-color: aqua;
+        width: 600px;
+        height: 340px;
         background-size: cover;
         background-position: center;
+        background-color: aqua;
 
     }
+
+    .pagina__texto-titulo,
+.pagina__texto-titulo-sus{
+    font: var(--font-principal);
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    color: var(--branco);
+    margin-top: 1em;
+}
     
 }
 

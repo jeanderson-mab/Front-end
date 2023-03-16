@@ -1,0 +1,69 @@
+
+.banner{
+ 
+}
+
+.banner__imagem{
+
+    width: 100%;
+    
+   
+    text-align: center;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* position:absolute; */
+
+    /* width: 360px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(215, 0, 235); */
+  
+    
+}
+.banner_mapa{
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 280px;
+    position: relative;
+    
+}
+
+
+.banner__titulo
+{
+    font-family: var(--fonte-banner);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: black;
+    color: var(--branco);
+}
+
+@media (min-width: 768px){
+    .banner{
+        background-image: url("/paginas/mapa-setores/img/banner-768.svg");
+    }
+    .banner_mapa{
+        
+        height: 380px;
+
+    }
+    
+    
+}
+
+@media (min-width: 1440px){
+    .banner_mapa{
+        
+    height: 480px;
+
+}
+}
+
+

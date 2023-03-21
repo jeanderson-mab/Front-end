@@ -1,9 +1,17 @@
-const pergunta = document.getElementById('perguntas');
+const pergunta = document.getElementsByClassName('perguntas')
 
-const resposta = document.getElementById('resposta');
+var i;
+var len = pergunta.length;
 
-pergunta.addEventListener('click', () => {
-    resposta.classList.toggle('active')
-     
+for(i = 0; i < len; i++){
+    pergunta[i].addEventListener('click',function(){
+        this.classList.toggle('active');
+        var resposta = this.nextElementSibling;
+        if(resposta.style.maxHeight){
+            resposta.style.maxHeight = null;
+        }else{
+            resposta.style.maxHeight = resposta.scrollHeight + 'px'
+        }
+    })
+}
 
-})

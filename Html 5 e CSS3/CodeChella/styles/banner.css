@@ -1,32 +1,24 @@
 
-.banner{
-    height: 270px;
-    width: auto;
-    background-image: url("/img/banner-sem-texto.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: auto;
+.banner__texto img{
+    width: 100%;
+    height: 280px;
+    object-fit:cover;
+    opacity: 0.4;
+
+}
+   
+.banner__geral{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: violet;
+   
+    
 }
 
+.banner__titulo{
 
-/* .banner__titulo{
-    width: 360px;
-    height: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(215, 0, 235);
-  
-} */
-
-.banner__titulo, 
-.link__banner{
+    background-color: aquamarine;
     font-family: var(--fonte-banner);
     font-weight: 400;
     font-size: 32px;
@@ -34,6 +26,8 @@
     color: black;
     color: var(--branco);
     text-align: center;
+    z-index: 1;
+
 } 
 .link__banner{
     text-decoration: none;
@@ -41,10 +35,16 @@
 
 
 @media (min-width: 768px){
-    .banner{
-        background-image: url("/img/banner-sem-texto.jpg");
-        background-size: cover;
-        background-position:center;
+    .banner img{
+        height: 384px;
+
     }
+}
+
+@media (min-width: 1440px){
+    .banner img{
+        height: 408px;
+    }
+
 }
 

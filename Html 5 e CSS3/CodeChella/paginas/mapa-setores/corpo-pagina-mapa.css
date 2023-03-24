@@ -12,6 +12,7 @@
 .mapa__legenda{
     width: 100%;
     margin: 1em;
+    text-align: left;
 }
 .legenda{
     padding: 0 1.5em;
@@ -111,6 +112,10 @@
         display: block;
         width: 100%;
         
+    }
+    .mapa__legenda{
+        display: flex;
+        justify-content: left;
     }
 
     .pagina__inicial{

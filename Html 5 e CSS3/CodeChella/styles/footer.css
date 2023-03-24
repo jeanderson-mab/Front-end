@@ -1,5 +1,5 @@
 .rodape{
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -7,16 +7,68 @@
     background-color: var(--azul);
 
 }
+.footer__topo-socialmedia{
+    text-align: center;
+    
+}
+.socia-medias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .footer__topo-texto,
 .footer__baixo{
     text-align: center;
     color: var(--branco);
     font-family: var(--fonte-principal);
     font-weight: 500;
+    font-size: 20px;
     padding: 1em;
 
 }
 .footer__baixo{
     line-height: 2em;
     font-size: 20px;
+}
+
+@media (min-width: 768px){
+    .rodape{
+        text-align: center;
+    }
+    .footer__topo{
+        margin-bottom: 1em;
+    }
+    .footer__topo-socialmedia{
+        display: flex;
+        align-items: center;
+    }
+    .footer__topo-socialmedia a{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 1em;
+    }
+}
+
+@media (min-width: 1440px){
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2em 6em;
+    }
+    .rodape__img-incones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__baixo{
+        width: 15em;
+        text-align: left;
+    
+    }
+    .footer__topo-texto{
+        font-size: 20px;
+        font-weight: 500;
+    }
 }

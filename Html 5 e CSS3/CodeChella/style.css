@@ -1,11 +1,6 @@
 @import url("/styles/header.css");  
 @import url("/styles/banner.css"); 
-
-/* @import url('/styles/corpo-pagina.css'); */
-
 @import url('/styles/footer.css'); 
-
-
 
 :root{
     --azul: #4650BD;

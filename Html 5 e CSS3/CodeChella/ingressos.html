@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
 
+    <link rel="stylesheet" href="/paginas/ingressos/formulario.css">
     <link rel="stylesheet" href="style-outras-paginas.css">
-    <link rel="stylesheet" href="/paginas/ingressos/banner-ingressos.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,8 @@
 <body>
     <header class="cabecalho">
         <div class="container">
-            <img src="img/Logo-1.svg" alt="Logo do CodChella" class="container__imagem">
+            <a href="/index.html" class="link-home">
+                <img src="img/Logo-1.svg" alt="Logo do CodChella" class="container__imagem"></a>
 
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
@@ -28,27 +29,28 @@
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">A experiência</a>
+                    <a href="/experiencia.html" class="lista-menu__link">A experiência</a>
                 
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Mapa de Setores</a>
+                    <a href="/mapa-de-setores.html" class="lista-menu__link">Mapa de Setores</a>
                     
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Informações</a>
+                    <a href="/gerais.html" class="lista-menu__link">Informações</a>
                     
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Ingressos</a>
+                    <a href="/ingressos.html" class="lista-menu__link">Ingressos</a>
                 </li>
             </ul>
         </div>
     </header>
 
     <section class="banner">
-        <div class="banner__texto">
-            <h2 class="banner__titulo">Garanta seu ingresso</h2>
+        <div class="banner__geral">
+            <h2 class="banner__titulo">Garanta seu Ingresso</h2>
+            <img src="/paginas/ingressos/img/banner.jpg" alt="Banner pagina Qrcode ingresso">
         </div>
     </section>
 
@@ -62,41 +64,44 @@
 
         <label class="nome">Email:</label>
         <input type="email" class="input-email" name="email">
-
-        <label class="nome">Tipo de ingresso:</label>
-        <select class="input-tipos" name="tipos" value="Tipos de ingresso">
-            <option value="volvo">Premium</option>
-            <option value="saab">Pista</option>
-            <option value="fiat">Faixa</option>
-        </select>
-
-        <label class="nome">Data de Nascimento:</label>
-        <input type="date" class="input-idade">
-
+        <div class="tipo__data">
+            <div class="tipo">
+                <label class="nome">Tipo de ingresso:</label>
+                <select class="input-tipos" name="tipos" value="Tipos de ingresso" placeholder="tipos">
+                    <option value="Premium">Premium</option>
+                    <option value="Pista">Pista</option>
+                    <option value="Faixa">Faixa</option>
+                </select>
+            </div>
+            <div class="data">
+                <label class="nome">Data de Nascimento:</label>
+                <input type="date" class="input-idade">
+            </div>
+        </div>
         <div class="butao">
             <a href="#" class="btn-avancar">Anvaçar!</a>
             <img class="seta" src="/paginas/ingressos/img/seta.svg">
         </div>
-</section>
+    </section>
     
   
     </section>
-
     <footer class="rodape">
-        <div class="footer__topo">
-            <img src="/img/Logo-1.svg" class="footer__topo-logo" alt="logo codechella">
-            <p class="footer__topo-texto">Acesse nossas redes:</p>
+        <div class="rodape__img-incones">
+            <div class="footer__topo">
+                <img src="/img/Logo-1.svg" class="footer__topo-logo" alt="logo codechella">
+            </div>
+            <div class="footer__topo-socialmedia">
+                <p class="footer__topo-texto">Acesse nossas redes:</p></div>
+                <div class="socia-medias">
+                    <a href="#"><img src="/img/social-media/social-media-whats.svg"></a>
+                    <a href="#"><img src="/img/social-media/social-media-linkedin.svg"></a>
+                    <a href="#"><img src="/img/social-media/social-media-insta.svg"></a>
+                    <a href="#"><img src="/img/social-media/social-media-twitter.svg"></a>
+                </div>
+            </div>
         </div>
-        <div class="footer__topo-socialmedia">
-            <a href="#"><img src="/img/social-media/social-media-whats.svg"></a>
-            <a href="#"><img src="/img/social-media/social-media-linkedin.svg"></a>
-            <a href="#"><img src="/img/social-media/social-media-insta.svg"></a>
-            <a href="#"><img src="/img/social-media/social-media-twitter.svg"></a>
-        </div>
-        <p class="footer__baixo">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
-        
+        <p class="footer__baixo">By Jeanderson Alcantara. Projeto fictício sem fins comerciais</p>
     </footer>
-
-
 </body>
 </html>

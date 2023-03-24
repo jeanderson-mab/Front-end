@@ -19,7 +19,6 @@
     font-family: var(--fonte-banner);
     color: var(--cinza);
     margin-bottom: 0.3em;
-    
 
 }
 .titulo{
@@ -35,9 +34,11 @@
     margin-bottom: 2em;
 
 }
-.input-tipos{
+.input-tipos,
+.input-idade{
     height: 3.5em;
     margin-bottom: 1em;
+    width: 100%;
 }
 
 .butao{
@@ -59,15 +60,83 @@
     color: var(--branco);
     text-decoration: none;
 }
-/*
-.btn-avancar{
-    margin: 1em;
-    padding: 3em;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px black;
-    background-image: url('/paginas/ingressos/img/seta.svg');
-    color: var(--branco);
-    background-color: var(--azul);
+
+@media (min-width: 768px){
+
+    .titulo{
+        font-size: 48px;
+        font-weight: 400;
+        color: var(--branco);
+    
+    }
+    .nome{
+        color: var(--branco);
+        margin-top: 1em;
+    }
+
+    .butao{
+        margin:1em 14em;
+        justify-content: space-between;
+        padding: 1em 1.5em;
+    
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 1em 5em;
+        
+    }
+    .tipo__data{
+        display: flex;
+        flex-direction: column;
+    }
+    .tipo, .data{
+        display: flex;
+        flex-direction: column;
+    }
+   
+
 }
 
 
+@media (min-width: 1440px){
+
+    .titulo{
+        font-size: 48px;
+        font-weight: 400;
+        color: var(--branco);
+     
+    }
+    .nome{
+        color: var(--branco);
+    }
+
+    .butao{
+        margin:0 10em;
+        justify-content: space-between;
+        padding: 1em 2em;
+        margin: 1em 18em;
+    
+    }
+    .tipo__data{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+        
+    }
+
+    .tipo, .data{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 1em 20em;
+       
+    }
+
+}

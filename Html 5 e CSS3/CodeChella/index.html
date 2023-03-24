@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="styles//cards-sab-dom.css">
     <link rel="stylesheet" href="styles/corpo-pagina.css">
 
-    <!-- <link rel="stylesheet" href="/paginas/banner-index.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +21,8 @@
 <body>
     <header class="cabecalho">
         <div class="container">
-            <img src="img/Logo-1.svg" alt="Logo do CodChella" class="container__imagem">
+            <a href="/index.html" class="link-home">
+            <img src="img/Logo-1.svg" alt="Logo do CodChella" class="container__imagem"></a>
 
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
@@ -30,27 +30,28 @@
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">A experiência</a>
+                    <a href="/experiencia.html" class="lista-menu__link">A experiência</a>
                 
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Mapa de Setores</a>
+                    <a href="/mapa-de-setores.html" class="lista-menu__link">Mapa de Setores</a>
                     
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Informações</a>
+                    <a href="/gerais.html" class="lista-menu__link">Informações</a>
                     
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Ingressos</a>
+                    <a href="/ingressos.html" class="lista-menu__link">Ingressos</a>
                 </li>
             </ul>
         </div>
     </header>
+
     <section class="banner">
-        <div class="banner__texto">
-            <h2 class="banner__titulo">Boas-vindas ao </h2>
-            <a href="#" class="link__banner">#CodeChella2023!</a>
+        <div class="banner__geral">
+            <h2 class="banner__titulo">Boas-vindas ao <br> <a href="#" class="link__banner">#CodeChella2023!</a></h2>
+            <img src="/paginas/index/img/banner-sem-texto.jpg" alt="Banner informações gerais">
         </div>
     </section>
     
@@ -68,20 +69,22 @@
         </div>
 
         <h2 class="pagin__inicial-line"> /Line-Up/</h2>
-        <div class="pagina__inicial-sabado">
-            <p class="pagina__inicial-sabado-texto">Sábado <11/03></p>
+        <div class="pagina__inicial-domingo">
+            <p class="pagina__inicial-domingo-texto">Sábado <11/03></p>
         </div> 
 
-        <h2 class="sabado-titulo"> System of DOM</h2>
-        <div class="pagina__inicial-sabado-textos">
+        <h2 class="domingo-titulo"> System of DOM</h2>
+        <div class="pagina__inicial-domingo-textos">
             <p class="texto-banda01">Python Maiden</p>
             <p class="texto-banda01">Apollo Client 2001</p>
             <p class="texto-banda01">Bon Java </p>
             <p class="texto-banda01">NickCallback</p>
+    
             <p class="texto-banda02">Link Promises</p> 
             <p class="texto-banda02">Fulllstack Fighters</p>
             <p class="texto-banda02">Papa React</p>
             <p class="texto-banda02">Angular in Chains</p>
+
             <p class="texto-banda03">Agnostic Front-end </p>
             <p class="texto-banda03">SlipkNode</p>
             <p class="texto-banda03">Pink Flutter</p>
@@ -94,20 +97,22 @@
 
         <h2 class="domingo-titulo">Lana Del Ploy</h2>
         <div class="pagina__inicial-domingo-textos">
-            <p class="texto-banda">Dua Lib</p>
-            <p class="texto-banda">The Backnd</p>
-            <p class="texto-banda">CSS Styles</p>
-            <p class="texto-banda">ArrayAna Grande</p>
-            <p class="texto-banda">DJ Query</p>
-            <p class="texto-banda">Miley Cypress</p>
-            <p class="texto-banda">Angular in Chains</p>
-            <p class="texto-banda">The Bootstrap Boys</p>
-            <p class="texto-banda">Json Derulo</p>
-            <p class="texto-banda">CloudPlay</p>
-            <p class="texto-banda">Dev Lovato</p>
-            <p class="texto-banda">Kylie MiLOG</p>
-            <p class="texto-banda">Jenkins Borthers</p>
-            <p class="texto-banda">Rubycat Dolls</p>
+            <p class="texto-banda01">Dua Lib</p>
+            <p class="texto-banda01">The Backnd</p>
+            <p class="texto-banda01">CSS Styles</p>
+            <p class="texto-banda01">DJ Query</p>
+            <p class="texto-banda01">ArrayAna Grande</p>
+            
+            <p class="texto-banda02">Miley Cypress</p>
+            <p class="texto-banda02">Angular in Chains</p>
+            <p class="texto-banda02">The Bootstrap Boys</p>
+            <p class="texto-banda02">Json Derulo</p>
+            <p class="texto-banda02">CloudPlay</p>
+
+            <p class="texto-banda03">Dev Lovato</p>
+            <p class="texto-banda03">Kylie MiLOG</p>
+            <p class="texto-banda03">Jenkins Borthers</p>
+            <p class="texto-banda03">Rubycat Dolls</p>
         </div>
      
     </section>
@@ -117,25 +122,23 @@
     
     
     <footer class="rodape">
-        <div class="footer__topo">
-            <img src="/img/Logo-1.svg" class="footer__topo-logo" alt="logo codechella">
-            <p class="footer__topo-texto">Acesse nossas redes:</p>
+        <div class="rodape__img-incones">
+            <div class="footer__topo">
+                <img src="/img/Logo-1.svg" class="footer__topo-logo" alt="logo codechella">
+            </div>
+            <div class="footer__topo-socialmedia">
+                <p class="footer__topo-texto">Acesse nossas redes:</p></div>
+                <div class="socia-medias">
+                    <a href="#"><img src="/img/social-media/social-media-whats.svg"></a>
+                    <a href="#"><img src="/img/social-media/social-media-linkedin.svg"></a>
+                    <a href="#"><img src="/img/social-media/social-media-insta.svg"></a>
+                    <a href="#"><img src="/img/social-media/social-media-twitter.svg"></a>
+                </div>
+            </div>
         </div>
-        <div class="footer__topo-socialmedia">
-            <a href="#"><img src="/img/social-media/social-media-whats.svg"></a>
-            <a href="#"><img src="/img/social-media/social-media-linkedin.svg"></a>
-            <a href="#"><img src="/img/social-media/social-media-insta.svg"></a>
-            <a href="#"><img src="/img/social-media/social-media-twitter.svg"></a>
-        </div>
-        <p class="footer__baixo">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
-        
+        <p class="footer__baixo">By Jeanderson Alcantara. Projeto fictício sem fins comerciais.</p>
     </footer>
 
-
-    
 </body>
 </html>
 
-
-
-<!-- <img src="/img/Line-4.png" class="linha"> -->

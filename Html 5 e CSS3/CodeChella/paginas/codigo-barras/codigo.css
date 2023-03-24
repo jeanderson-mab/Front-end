@@ -57,3 +57,46 @@
 }
 
 
+@media (min-width: 768px){
+    .titulo__banner-code{
+        margin: 1em 1em;
+        line-height: 1.5em;
+        
+        
+    }
+    .codigo-barra{
+        margin: 3em;
+        
+    }
+    .corpo__qrcode{
+        display: flex;
+        flex-direction: column;
+        margin: 2em 0;
+    }
+}
+
+@media (min-width: 1440px){
+    .corpo__qrcode{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .codigo-barra{
+        margin: 3em 20em;
+        
+    }
+
+    .corpo__qrcode{
+        display: flex;
+        flex-direction: row;
+        margin: 1em 0;
+    }
+
+    .corpo__qrcode-texto{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5em;
+    }
+
+
+}

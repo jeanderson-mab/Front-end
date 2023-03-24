@@ -19,36 +19,42 @@
     <title>A experiência</title>
 </head>
 <body>
-    <heade class="cabecalho">
+    <header class="cabecalho">
         <div class="container">
-            <img src="/img/Logo-1.svg" alt="Logo do CodeChella" class="container__imagem">
+            <a href="/index.html" class="link-home">
+                <img src="img/Logo-1.svg" alt="Logo do CodChella" class="container__imagem"></a>
+
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
                 <span class="cabecalho__menu-hamburguer"></span>
             </label>
             <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="/experiencia.html" class="lista-menu__link">A experiência</a>
                 
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">A experiencia</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Mapa de Setores</a>
+                    <a href="/mapa-de-setores.html" class="lista-menu__link">Mapa de Setores</a>
+                    
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Informações</a>
+                    <a href="/gerais.html" class="lista-menu__link">Informações</a>
+                    
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">ingresso</a>
+                    <a href="/ingressos.html" class="lista-menu__link">Ingressos</a>
                 </li>
-                
             </ul>
         </div>
-    </heade>
+    </header>
+
     <section class="banner">
-        <div class="banner__img">
-            <img class="primeira-img" src="/paginas/experiencia/img/banner-1440.svg"> 
+        <div class="banner__geral">
+            <h2 class="banner__titulo">A experiência</h2>
+            <img src="/paginas/experiencia/img/banner-sem-texto.jpg" alt="Banner pagina Qrcode ingresso">
         </div>
     </section>
+    
     
     <section class="pagina__inicial">
         <!-- Acessibilidade -->
@@ -89,18 +95,21 @@
     </section>
     
     <footer class="rodape">
-        <div class="footer__topo">
-            <img src="/img/Logo-1.svg" class="footer__topo-logo" alt="logo codechella">
-            <p class="footer__topo-texto">Acesse nossas redes:</p>
+        <div class="rodape__img-incones">
+            <div class="footer__topo">
+                <img src="/img/Logo-1.svg" class="footer__topo-logo" alt="logo codechella">
+            </div>
+            <div class="footer__topo-socialmedia">
+                <p class="footer__topo-texto">Acesse nossas redes:</p></div>
+                <div class="socia-medias">
+                    <a href="#"><img src="/img/social-media/social-media-whats.svg"></a>
+                    <a href="#"><img src="/img/social-media/social-media-linkedin.svg"></a>
+                    <a href="#"><img src="/img/social-media/social-media-insta.svg"></a>
+                    <a href="#"><img src="/img/social-media/social-media-twitter.svg"></a>
+                </div>
+            </div>
         </div>
-        <div class="footer__topo-socialmedia">
-            <a href="#"><img src="/img/social-media/social-media-whats.svg"></a>
-            <a href="#"><img src="/img/social-media/social-media-linkedin.svg"></a>
-            <a href="#"><img src="/img/social-media/social-media-insta.svg"></a>
-            <a href="#"><img src="/img/social-media/social-media-twitter.svg"></a>
-        </div>
-        <p class="footer__baixo">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
-        
+        <p class="footer__baixo">By Jeanderson Alcantara. Projeto fictício sem fins comerciais</p>
     </footer>
 
 </body>

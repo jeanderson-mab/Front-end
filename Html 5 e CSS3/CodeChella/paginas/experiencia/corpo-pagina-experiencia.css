@@ -6,7 +6,6 @@
     padding: 1.2em 1em;
     text-align: center;
     align-items: center;
-    
 } 
 
 .pagina__texto-titulo,
@@ -27,53 +26,45 @@
     line-height:40px;
     color: var(--branco);
     font-weight: 500;
-    padding: 0.5em;
+    padding: .5em;
     margin-bottom: 2em;
+
+}
+
+ .pagina__initial-texto{
+    width: auto;
+    height: auto;
+
+
 }
 
 
-.pre-footer{
-    width: 360px;
-    height: 340px;
-    background-color: black;
-}
+    @media (min-width: 768px){
 
+    .container-acessibilidade,
+    .container-sustentabilidade,
+    .container-atracoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-                @media (min-width: 768px){
+    }
+    /*TITULO E TEXTO ACESSIBILIDADE */
+    .pagina__initial-texto{
+        padding: 0 3em;
 
-                .container-acessibilidade,
-                .container-sustentabilidade,
-                .container-atracoes{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+    }
 
-                }
-                /*TITULO E TEXTO ACESSIBILIDADE */
-                .pagina__initial-texto{
-                    padding: 0 3em;
+    .pagina__texto-titulo,
+    .pagina__texto-titulo-sus{
+    font: var(--font-principal);
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    color: var(--branco);
+    margin-top: 1em;
+    }
 
-                }
-
-                /* .imagem__incial{
-                    width: 600px;
-                    height: 340px;
-                    background-size: cover;
-                    background-position: center;
-                    
-
-                } */
-
-                .pagina__texto-titulo,
-                .pagina__texto-titulo-sus{
-                font: var(--font-principal);
-                font-weight: 700;
-                text-align: center;
-                font-size: 32px;
-                color: var(--branco);
-                margin-top: 1em;
-                }
-    
 }
 
 
@@ -112,8 +103,6 @@
     .pagina__initial-texto{
         width: 60%;
         height: 40%;
-        padding: 0;
-    
 
     }
     .pagina__texto-titulo,

@@ -1,4 +1,3 @@
-
 .sabado-titulo,
 .domingo-titulo{
     color: var(--branco);
@@ -7,10 +6,46 @@
     font-size: 48px;
     padding: 1em 0;
 }
+.pagina__inicial-domingo{
+    background: var(--verde);
+    padding: 20px ;
+
+}
+
+.pagina__inicial-domingo-texto{
+  
+    font-size: 32px;
+    font-family: var(--fonte-banner);
+    font-weight: 400;
+    color: var(--branco);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.texto-banda01{
+    font-size: 40px;
+    color: var(--branco);
+}
+.texto-banda02{
+    font-size: 32px;
+    color: var(--branco);
+}
+.texto-banda03{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--branco);
+}
+
+
+.pagina__inicial-domingo-textos{
+    line-height: 4.5em;
+    width: 100%;
+    text-align: center;
+}
+
 
 
 @media (min-width: 768px){  
-    .pagina__inicial-sabado-textos,
     .pagina__inicial-domingo-textos{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -18,14 +53,12 @@
         align-items: center;
         margin-bottom: 2em;
     }
+}
 
+@media (min-width: 1440px){  
     .pagina__inicial-domingo-textos{
         display: grid;
-        grid-template-columns: 33% 33% 33%;
-        width: 768px;
-        /*align-items: center;
-        margin-bottom: 2em;*/
-
+        grid-template-columns: 35% 35% 35%;
+        width: 80%;
     }
-
 }
